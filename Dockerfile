@@ -1,4 +1,4 @@
-FROM https://www.quay.io/strimzi/kafka
+FROM quay.io/strimzi/kafka:latest
 USER 0
 RUN mkdir /kafka
 RUN chmod -R 777 /kafka
